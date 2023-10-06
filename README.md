@@ -1,8 +1,8 @@
 # Developing a Simple Webserver
+<<<<<<< HEAD
 name:dakshata
 ref no:23013965
 dept:aiml
-
 
 # AIM:
 
