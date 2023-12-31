@@ -36,12 +36,17 @@ from http.server import HTTPServer, BaseHTTPRequestHandler
 content="""
 
 <html>
-<head>
-</head>
-<body>
-<h1>Welcome</h1>
-</body>
-</html>
+       <body>
+            <h1>
+                Top five web application framework<br>
+                1.Angular<br>
+                2.Django<br>
+                3.Ruby on Rails<br>
+                4.Laravel<br>
+                5.React<br>
+            <h1>
+        </body>
+</html> 
 """
 
 class MyHandler(BaseHTTPRequestHandler):
@@ -59,7 +64,7 @@ httpd.serve_forever()
 ```
 # OUTPUT:
 
-![Alt text](images/output.png)
+![Alt text](<Screenshot 2023-12-31 081448.png>)
 
 # RESULT:
 
